@@ -1,0 +1,13 @@
+module Pictures where 
+type Picture = ....
+
+-- Th horse example
+
+horse, white :: Picture
+horse = ....
+white = ....
+
+-- Getting the picture onyo the screen
+
+printPicture :: Picture -> IO ()
+printPicture= ....
