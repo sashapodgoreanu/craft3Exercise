@@ -22,3 +22,14 @@ lineTwoChess = beside (beside twoChess twoChess) (beside twoChess twoChess)
 
 chess :: Picture 
 chess = above (above lineTwoChess lineTwoChess) (above lineTwoChess lineTwoChess)
+
+-- 2.3
+
+blackwhitehorse :: Picture
+blackwhitehorse = beside whiteHorse horse
+
+flipedBlackWhite :: Picture
+flipedBlackWhite = flipV blackwhitehorse
+
+abcdHorse :: Picture
+abcdHorse = above blackwhitehorse flipedBlackWhite
